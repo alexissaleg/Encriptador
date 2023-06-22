@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img class="header_logo" src="./img/logo.svg" alt="logo">
+            </div>
+        </header>
+        <main class="main">
+            <div class="izquierda">
+                <textarea id="ingresoTexto" class="ingreso_texto" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="izquierda_footer">
+                    <img src="./img/vector.svg" alt="">
+                    <span class="izquierda_info">Solo letras minúsculas y sin acentos</span>
+                    <div class="izquierda_botones">
+                        <button id="botonEncriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="derecha" class="derecha">
+                <img id="munheco" class="munheco" src="./img/munheco.svg" alt="">
+                <textarea id="mensajeFinal" class="mensaje_final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="derechaInfo" class="derecha_info">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button id="botonCopiar" class="boton_copiar bn_ocultar">Copiar</button>
+            </div>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
