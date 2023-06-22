@@ -6,7 +6,6 @@ textarea{
     font-family: 'Inter', sans-serif;
 }
 .header{
-    /* background-color: aquamarine; */
     width: 90%;
     margin: auto;
 }
@@ -15,7 +14,6 @@ textarea{
     border: var(--border-item);
 }
 .main{
-    /* background-color: blueviolet; */
     width: 80.5%;
     margin: auto 40px auto auto;
     display: grid;
@@ -29,11 +27,10 @@ textarea{
 /*izquierda*/
 
 .izquierda{
-    /* background-color: green; */
     height: 85%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /*distribuye el espacio*/
+    justify-content: space-between;
 }
 .ingreso_texto{
     width: 80%;
@@ -56,7 +53,7 @@ textarea{
     display: flex;
     gap: 24px;
     margin-top: 16px;
-    flex-wrap: wrap; /*cunado llege al tamño minimo lo baja*/
+    flex-wrap: wrap;
 }
 .boton_encriptar, .boton_desencriptar, .boton_copiar{
     max-width: 328px;
@@ -66,7 +63,7 @@ textarea{
     font-size: 16px;
     border-radius: 24px;
     border: solid #0A3871 1px;
-    cursor: pointer; /* muestra mano encima del boton*/
+    cursor: pointer;
 }
 .boton_encriptar{
     background-color: #0A3871;
@@ -82,7 +79,6 @@ textarea{
 }
 
 
-
 /*derecha*/
 
 .derecha{
@@ -91,41 +87,41 @@ textarea{
     border-radius: 32px;
     padding: 32px;
     box-sizing: border-box;
-    display: flex; /*pone un elemto al lado del otro*/
-    flex-direction: column; /*pone los elemntos en columnas*/
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 32px;
     align-items: center;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    width: 100%; /*x*/
+    width: 100%;
 }
 .ajuste{
     justify-content: space-between;
 }
 .derecha.ajustar{
-    justify-content: center; /*distribuye el espacio */
+    justify-content: center;
 }
 .munheco{
     width: 100%;
-    min-width: 230px; /* x */
+    min-width: 230px;
 }
 .ocultar{
     display: none;
 }
 .mensaje_final{
     background: none;
-    border: none; /* Sin borde */
-    outline: none; /* Sin linea */
-    resize: none; /* No redimencione cuadro texto */
-    overflow: hidden; /* no se dibujan barras */
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
 }
 .mensaje_final.ajustar{
     justify-content: space-between;
-    text-align: left; /*texto a la izquierda*/
-    font-weight: lighter; /*texto sin negritas*/
+    text-align: left;
+    font-weight: lighter;
     height: 80%;
 }
 .derecha_info{
@@ -135,10 +131,8 @@ textarea{
 }
 .boton_copiar{
     width: 100%;
-    /* display: block; */
     background: transparent;
     color: #0A3871;
-    /* border: solid #0A3871 1px; */
 }
 .ajustar{
     height: auto;
